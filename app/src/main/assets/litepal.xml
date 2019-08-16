@@ -5,8 +5,8 @@
 
     <list>
         <mapping class="com.example.kuouweather.db.Province"/>
-        <mapping class="ccom.example.kuouweather.db.City"/>
-        <mapping class="ccom.example.kuouweather.db.County"/>
+        <mapping class="com.example.kuouweather.db.City"/>
+        <mapping class="com.example.kuouweather.db.County"/>
     </list>
 
 </litepal>

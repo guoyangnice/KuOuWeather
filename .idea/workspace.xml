@@ -5,6 +5,10 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d3d0015d-a112-428c-b077-c77e7dd07a49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
@@ -13,13 +17,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KuOuWeather.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KuOuWeather.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/litepal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/litepal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,19 +38,86 @@
       </state>
     </system>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="KuOuWeather" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/choose_area.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/litepal.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
-          <provider editor-type-id="text-editor" />
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/ChooseAreaFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2441">
+              <caret line="100" column="13" lean-forward="true" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2490#2964#0" expanded="true" />
+                <element signature="e#2963#2964#0" expanded="true" />
+                <element signature="e#2763#2940#0" expanded="true" />
+                <element signature="e#2939#2940#0" expanded="true" />
+                <element signature="e#6878#7062#0" expanded="true" />
+                <element signature="e#7061#7062#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -63,67 +134,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/Province.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" lean-forward="true" selection-start-column="8" selection-end-column="34" />
+            <state relative-caret-position="325">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/assets/litepal.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/City.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-              <folding>
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
                 <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,26 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/County.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-131">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -161,9 +166,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="resourceFile" />
         <option value="valueResourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -175,20 +182,28 @@
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/County.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/City.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/Province.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/litepal.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/litepal.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/util/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/util/Utility.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/choose_area.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/City.java" />
         <option value="$PROJECT_DIR$/app/src/main/assets/litepal.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/network.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/network_security_config.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/ChooseAreaFragment.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="837" />
-    <option name="y" value="38" />
+    <option name="x" value="736" />
     <option name="width" value="1430" />
-    <option name="height" value="992" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -239,7 +254,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="values" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,6 +273,56 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
+            <path>
+              <item name="KuOuWeather" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="KuOuWeather" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="kuouweather" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KuOuWeather" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="kuouweather" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KuOuWeather" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="KuOuWeather" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="KuOuWeather" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="KuOuWeather" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="KuOuWeather" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="xml" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="KuOuWeather" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -266,6 +331,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="E:/assdk/android-sdk-r23" />
+    <property name="device.picker.selection" value="P7C0218131035109" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\newasspace11\KuOuWeather\app\src\main\res\xml" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\newasspace11\KuOuWeather\app\src\main\res\drawable" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -287,7 +362,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -355,25 +430,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="670" y="31" width="1144" height="793" extended-state="0" />
+    <frame x="589" y="0" width="1144" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" weight="0.21639043" />
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.11878453" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="Resources Explorer" />
       <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" weight="0.3297587" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Logcat" visible="true" weight="0.20200573" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Android Profiler" />
+      <window_info anchor="bottom" id="Debug" weight="0.31586403" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.10438729" />
+      <window_info anchor="bottom" id="Build" weight="0.4287812" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Gradle" />
@@ -383,53 +460,68 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/litepal.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/litepal.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="19">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_back.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/County.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/util/Utility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="63" column="75" lean-forward="true" selection-start-line="63" selection-start-column="75" selection-end-line="63" selection-end-column="75" />
           <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/assdk1/sources/android-28/android/view/LayoutInflater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="537" selection-start-line="537" selection-end-line="537" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/util/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.litepal.android/core/1.3.2/f8457625e38f5d86bcdacf8b3b1a11535c7730fe/core-1.3.2-sources.jar!/org/litepal/crud/DataSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/City.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="38">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="20" />
           <folding>
             <element signature="e#226#227#0" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />
@@ -451,50 +543,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/litepal.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/litepal.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/County.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="-131">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/db/Province.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" lean-forward="true" selection-start-column="8" selection-end-column="34" />
+        <state relative-caret-position="325">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/choose_area.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/litepal.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/network.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="41">
+          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/kuouweather/ChooseAreaFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2441">
+          <caret line="100" column="13" lean-forward="true" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2490#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="e#2763#2940#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#6878#7062#0" expanded="true" />
+            <element signature="e#7061#7062#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
